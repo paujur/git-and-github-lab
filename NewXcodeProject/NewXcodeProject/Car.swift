@@ -9,5 +9,18 @@
 import Foundation
 
 class Car {
+    var description: String
+    var numberOfWheels: Int
+    var maxSpeed: Float
+    
+    
+    init(description: String, numberOfWheels: Int, maxSpeed: Float) {
+        self.description = description
+        self.numberOfWheels = numberOfWheels
+        self.maxSpeed = maxSpeed
+    }
+}
+
+class Garage {
     
 }
